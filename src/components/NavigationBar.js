@@ -16,9 +16,6 @@ export default function NavigationBar() {
             <LinkContainer to={"/"}>
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to={"/employees"}>
-              <Nav.Link>Employees</Nav.Link>
-            </LinkContainer>
 
             {/* <Link to={"/"} title="Home" /> */}
             {/* <Link to={"/employees"} title="Employees" /> */}
