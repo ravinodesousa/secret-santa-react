@@ -5,3 +5,7 @@
 3] edit "REACT_APP_BASE_URL" variable in .env file
 4] run "npm i" command in root folder
 5] run "npm start"
+
+# Description
+
+The goal of this project is to find Secret santa for all employees.
