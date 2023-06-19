@@ -79,6 +79,8 @@ export default function Home() {
       }
     );
 
+    setSecretSantaList([]);
+
     /* create an XLSX file and try to save it */
     writeFile(
       workbook,

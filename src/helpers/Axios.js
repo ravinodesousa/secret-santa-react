@@ -13,3 +13,7 @@ export const generateSantaList = (file) => {
 export const saveGeneratedList = (data) => {
   return axios.post(`${baseURL}/save-santa-list`, data, {});
 };
+
+export const getSantaList = () => {
+  return axios.get(`${baseURL}/santa-list`, {});
+};
